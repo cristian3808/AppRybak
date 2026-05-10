@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favoritos"
+            android:title="@string/favoritos"
+            android:icon="@android:drawable/ic_menu_today"/>
+        <item
+            android:id="@+id/nav_gestion_admin"
+            android:title="@string/gestion_admin"
+            android:icon="@android:drawable/ic_menu_agenda"/>
+        <item
+            android:id="@+id/nav_usuarios"
+            android:title="@string/usuarios"
+            android:icon="@android:drawable/ic_menu_add"/>
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="@string/perfil"
+            android:icon="@android:drawable/ic_menu_preferences"/>
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+
+</menu>

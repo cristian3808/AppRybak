@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prueba de Funcionamiento</string>
+    <string name="texto_bienvenida">Bienvenido a Rybak</string>
+    <string name="mensaje_inicio">Bienvenidos Rybak, Continua una nueva aventura</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="registrate">REGISTRATE</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="contrasena">Contrasena</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="recuperar_contrasena">Recuperar contrasena</string>
+    <string name="iniciar_sesion_con_google">Iniciar sesión con google</string>
+    <string name="ingresar_con_huella">Ingresar con huella</string>
+    <string name="registro">registro</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="repite_contrasena">Repita su Contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="terminos_y_condiciones">terminos y condiciones</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes cuenta? Iniciar Sesón</string>
+    <string name="mi_tienda">Mi tienda</string>
+    <string name="inicio">Inicio</string>
+    <string name="Catalogo">Catálogo</string>
+    <string name="carrito">Carrito</string>
+    <string name="perfil">Perfil</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="logout">Logout</string>
+    <string name="gestion_admin">Gestion Admin</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="navigation_drawer_open">Menú abierto</string>
+    <string name="navigation_drawer_close">Menú Cerrado</string>
+    <string name="productos_destacados">Productos Destacados</string>
+    <string name="imagen_del_producto">imagen del producto</string>
+    <string name="agregar_al_carrito">agregar al carrito</string>
+</resources>

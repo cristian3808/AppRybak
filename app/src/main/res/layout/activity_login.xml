@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ui.auth.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_usuario" />
+
+        <EditText
+            android:id="@+id/et_email_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/correo_electronico"
+            android:textColorHint="@color/white"
+            android:textColor="@color/rojo"
+            android:background="@drawable/style_edit_text" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_password" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:inputType="textPassword"
+            android:hint="@string/contrasena"
+            android:textColorHint="@color/white"
+            android:textColor="@color/rojo"
+            android:background="@drawable/style_edit_text"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_iniciar_sesion"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/iniciar_sesion"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="50dp"
+        app:strokeWidth = "3dp"
+        app:strokeColor = "@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_recontrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperar_contrasena"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/style_btn_login"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_google"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/iniciar_sesion_con_google"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_inhuella"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar_con_huella"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tv_registrate_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrate"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="50dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

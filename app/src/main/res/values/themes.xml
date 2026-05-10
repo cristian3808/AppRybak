@@ -1,0 +1,12 @@
+<resources> xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PruebaDeFuncionamiento" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PruebaDeFuncionamiento" parent="Base.Theme.PruebaDeFuncionamiento">
+        <item name="colorPrimary" >@color/color_blue</item>
+    </style>
+
+</resources>
