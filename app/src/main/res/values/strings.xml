@@ -11,7 +11,7 @@
     <string name="recuperar_contrasena">Recuperar contraseña</string>
     <string name="iniciar_sesion_con_google">Iniciar sesión con google</string>
     <string name="ingresar_con_huella">Ingresar con huella</string>
-    <string name="registro">registro</string>
+    <string name="registro">REGISTRO</string>
     <string name="nombres">Nombres</string>
     <string name="apellidos">Apellidos</string>
     <string name="correo">Correo Electrónico</string>
