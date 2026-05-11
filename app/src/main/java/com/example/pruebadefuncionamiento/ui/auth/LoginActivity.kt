@@ -13,6 +13,8 @@ import com.example.pruebadefuncionamiento.R
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var tvRegistrate: TextView
+
+    private lateinit var tvReContrasena: TextView
     private lateinit var btnIniciarSesion: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +33,10 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
 
+        tvReContrasena = findViewById(R.id.tv_recuperar_contrasena)
+        tvReContrasena.setOnClickListener {
+            startActivity(Intent(this, RecuperarContrasenaActivity::class.java))
+        }
         btnIniciarSesion = findViewById(R.id.btn_iniciar_sesion)
         btnIniciarSesion.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))

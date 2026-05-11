@@ -8,7 +8,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.example.pruebadefuncionamiento.ui.main.admin.AdminFragment
 import com.example.pruebadefuncionamiento.ui.main.admin.UsuariosFragment
-import com.example.pruebadefuncionamiento.ui.main.perfil.PerfilFragment
 import com.example.pruebadefuncionamiento.ui.main.productos.CarritoFragment
 import com.example.pruebadefuncionamiento.ui.main.productos.CatalogoFragment
 import com.example.pruebadefuncionamiento.ui.main.productos.FavoritosFragment
@@ -50,7 +49,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home -> cargarFragment(HomeFragment())
                 R.id.nav_catalogo -> cargarFragment(CatalogoFragment())
                 R.id.nav_carrito -> cargarFragment(CarritoFragment())
-                R.id.nav_perfil -> cargarFragment(PerfilFragment())
             }
             true
         }

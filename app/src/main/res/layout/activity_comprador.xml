@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".ui.main.admin.AdminFragment">
+    tools:context=".ui.main.comprador.CompradorFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/rybak"
+            android:text="RYBAK"
             android:textSize="38sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -25,16 +25,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/panel_de_administrador"
+            android:text="Panel de Comprador"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#444444"
             android:layout_gravity="center"
             android:layout_marginTop="8dp" />
 
+        <!-- INICIO -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="85dp"
             android:background="@drawable/style_edit_text"
             android:orientation="vertical"
             android:padding="15dp"
@@ -43,7 +44,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/dashboard"
+                android:text="Inicio"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black" />
@@ -51,14 +52,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/resumen_general_del_sistema"
+                android:text="Pantalla principal del usuario"
                 android:textSize="14sp"
                 android:textColor="#666666" />
         </LinearLayout>
 
+        <!-- CATÁLOGO -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="85dp"
             android:background="@drawable/style_edit_text"
             android:orientation="vertical"
             android:padding="15dp"
@@ -67,7 +69,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/gesti_n_de_usuarios"
+                android:text="Catálogo de Productos"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black" />
@@ -75,14 +77,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/crear_editar_eliminar_usuarios"
+                android:text="@string/explorar_productos_disponibles"
                 android:textSize="14sp"
                 android:textColor="#666666" />
         </LinearLayout>
 
+        <!-- DETALLE PRODUCTO -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="85dp"
             android:background="@drawable/style_edit_text"
             android:orientation="vertical"
             android:padding="15dp"
@@ -91,7 +94,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/gesti_n_de_productos"
+                android:text="@string/detalle_de_producto"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black" />
@@ -99,14 +102,65 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/administrar_inventario"
+                android:text="@string/informaci_n_completa_del_producto"
                 android:textSize="14sp"
                 android:textColor="#666666" />
         </LinearLayout>
 
+        <!-- CARRITO -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="85dp"
+            android:background="@drawable/style_edit_text"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carrito_de_compras"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/productos_seleccionados"
+                android:textSize="14sp"
+                android:textColor="#666666" />
+        </LinearLayout>
+
+        <!-- PAGOS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="@drawable/style_edit_text"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pasarela_de_pagos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/procesar_pagos_de_forma_segura"
+                android:textSize="14sp"
+                android:textColor="#666666" />
+        </LinearLayout>
+
+        <!-- PERFIL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
             android:background="@drawable/style_edit_text"
             android:orientation="vertical"
             android:padding="15dp"
@@ -116,7 +170,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/reporte_de_ventas"
+                android:text="@string/perfil_de_usuario"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black" />
@@ -124,7 +178,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/estad_sticas_y_reportes"
+                android:text="@string/configuraci_n_de_cuenta"
                 android:textSize="14sp"
                 android:textColor="#666666" />
         </LinearLayout>

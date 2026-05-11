@@ -24,7 +24,7 @@
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:text="@string/texto_bienvenida"
-        android:textColor="@color/color_blue"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />

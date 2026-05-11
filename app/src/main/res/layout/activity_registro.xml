@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,144 +10,135 @@
     android:background="@color/white"
     tools:context=".ui.auth.RegistroActivity">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:src="@drawable/logo1" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/registro"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/color_blue"
-        android:gravity="center"/>
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:orientation="vertical"
-            android:padding="25dp">
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rybak"
+                android:textSize="44sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registro"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp" />
 
             <EditText
                 android:id="@+id/re_nombres"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="30dp"
                 android:background="@drawable/style_edit_text"
-                android:ems="10"
                 android:hint="@string/nombres"
                 android:inputType="textPersonName"
                 android:paddingStart="15dp"
-                android:paddingEnd="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/color_blue"
-                android:textSize="20sp" />
+                android:textSize="18sp"
+                android:layout_marginTop="10dp" />
 
             <EditText
                 android:id="@+id/re_apellidos"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="15dp"
                 android:background="@drawable/style_edit_text"
-                android:ems="10"
                 android:hint="@string/apellidos"
                 android:inputType="textPersonName"
                 android:paddingStart="15dp"
-                android:paddingEnd="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/color_blue"
-                android:textSize="20sp" />
+                android:textSize="18sp"
+                android:layout_marginTop="12dp" />
 
             <EditText
                 android:id="@+id/re_correo"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="15dp"
                 android:background="@drawable/style_edit_text"
-                android:ems="10"
                 android:hint="@string/correo"
                 android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
-                android:paddingEnd="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/color_blue"
-                android:textSize="20sp" />
+                android:textSize="18sp"
+                android:layout_marginTop="12dp" />
 
             <EditText
                 android:id="@+id/re_contrasena"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="15dp"
                 android:background="@drawable/style_edit_text"
-                android:ems="10"
                 android:hint="@string/contrasena"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
-                android:paddingEnd="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/color_blue"
-                android:textSize="20sp" />
+                android:textSize="18sp"
+                android:layout_marginTop="12dp" />
 
             <EditText
                 android:id="@+id/re_recontrasena"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="15dp"
                 android:background="@drawable/style_edit_text"
-                android:ems="10"
                 android:hint="@string/repite_contrasena"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
-                android:paddingEnd="15dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/color_blue"
-                android:textSize="20sp" />
+                android:textSize="18sp"
+                android:layout_marginTop="12dp" />
 
             <CheckBox
                 android:id="@+id/check_terminos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:buttonTint="@color/black"
                 android:text="@string/terminos_y_condiciones"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="16sp"
+                android:layout_marginTop="18dp" />
 
             <Button
                 android:id="@+id/btn_registro"
-                android:layout_width="280dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="@color/color_blue"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
                 android:text="@string/registrarse"
-                android:textColor="@color/white"
-                android:textSize="25sp"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
-                app:strokeColor="@color/black"
-                app:strokeWidth="2dp" />
+                android:background="@drawable/style_btn_login"
+                android:layout_marginTop="22dp" />
 
             <TextView
                 android:id="@+id/re_cuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
                 android:text="@string/ya_tienes_cuenta"
                 android:textColor="@color/color_blue"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="10dp" />
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>
