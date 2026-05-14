@@ -10,52 +10,55 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical"
         android:padding="24dp"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rybak"
-            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
             android:textStyle="bold"
-            android:textColor="@color/black" />
+            android:translationY="-130dp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/recuperar_contrasena"
-            android:textSize="22sp"
-            android:textStyle="bold"
             android:textColor="@color/black"
-            android:layout_marginTop="10dp" />
+            android:textSize="22sp"
+            android:layout_gravity="start"
+            android:translationY="-85dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ingresa_tu_correo_para_enviarte_un_enlace_de_recuperaci_n"
-            android:textSize="14sp"
-            android:textColor="#666666"
-            android:gravity="center"
             android:layout_marginTop="10dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp" />
+            android:gravity="center"
+            android:text="@string/ingresa_tu_correo_para_enviarte_un_enlace_de_recuperaci_n"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:translationY="-80dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
             android:background="@drawable/style_edit_text"
             android:gravity="center_vertical"
+            android:orientation="horizontal"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:layout_marginTop="25dp">
+            android:translationY="-90dp">
 
             <ImageView
                 android:layout_width="24dp"
@@ -71,7 +74,7 @@
                 android:inputType="textEmailAddress"
                 android:paddingStart="10dp"
                 android:textColor="@color/black"
-                android:textColorHint="#888888" />
+                android:textColorHint="@color/gray" />
 
         </LinearLayout>
 
@@ -79,20 +82,22 @@
             android:id="@+id/btn_recuperar"
             android:layout_width="match_parent"
             android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/style_btn_login"
             android:text="@string/recuperar"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            android:background="@drawable/style_btn_login"
-            android:layout_marginTop="25dp" />
+            android:translationY="-90dp" />
 
         <TextView
             android:id="@+id/tv_volver_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/volver_al_login"
-            android:textColor="#2F80ED"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:text="VOLVER A INICIAR SESIÓN"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:translationY="-60dp"/>
 
     </LinearLayout>
 

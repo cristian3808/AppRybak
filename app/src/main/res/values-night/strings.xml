@@ -63,4 +63,11 @@
     <string name="volver_al_login">Volver al login</string>
     <string name="perfil_de_vendedor">Perfil de Vendedor</string>
     <string name="informaci_n_y_configuraci_n_de_cuenta">Información y configuración de cuenta</string>
+    <string name="continuar_con_google">Continuar con Google</string>
+    <string name="ingresa_tus_datos">Ingresa tus datos:</string>
+    <string name="ingresa_tu_nombre">Ingresa tu nombre</string>
+    <string name="ingresa_tu_apellido">Ingresa tu apellido</string>
+    <string name="ingresa_tu_correo_electr_nico">Ingresa tu correo electrónico</string>
+    <string name="ingresa_la_contrase_a">Ingresa la contraseña</string>
+    <string name="repita_la_contrase_a">Repita la contraseña</string>
 </resources>
